@@ -40,7 +40,7 @@ function login(){//开启登录
 	upass = document.getElementById("userpass").value;
 	_17mb_code = document.getElementById("_17mb_code").value;
 	_17mb_login_save = document.getElementById("login_save").checked;
-    doAjax("/login_go.php", "chname=" + uname + "&chpass=" + upass + "&_17mb_code=" + _17mb_code + "&_17mb_login_save=" + _17mb_login_save, "go_login", "POST", 0);
+    doAjax("https://m.qiuwu.net/login_go.php", "chname=" + uname + "&chpass=" + upass + "&_17mb_code=" + _17mb_code + "&_17mb_login_save=" + _17mb_login_save, "go_login", "POST", 0);
 }
 function go_login(t){
 	t = t.replace(/\s/g,'');
@@ -62,7 +62,7 @@ function go_login(t){
 		reloadcode();
 	}
 	if(t == "yeslogin" ){
-		doAjax("/ajax.php", "is_login=1", "is_login", "GET", 0);
+		doAjax("https://m.qiuwu.net/ajax.php", "is_login=1", "is_login", "GET", 0);
 	}
 }
 
@@ -83,7 +83,7 @@ function is_login(t){
 			window.location.href = url;	
 		}
 		else{
-			window.location.href = "/";	
+			window.location.href = "https://m.qiuwu.net/";	
 		}
 	}
 	else{
@@ -96,7 +96,7 @@ function register(){
 	upass = document.getElementById("regpass").value;
 	uemail = document.getElementById("regemail").value;
 	_17mb_code = document.getElementById("_17mb_code").value;
-	doAjax("/register_go.php", "uname=" + uname + "&upass=" + upass + "&uemail=" + uemail + "&_17mb_code=" + _17mb_code, "go_register", "POST", 0);
+	doAjax("https://m.qiuwu.net/register_go.php", "uname=" + uname + "&upass=" + upass + "&uemail=" + uemail + "&_17mb_code=" + _17mb_code, "go_register", "POST", 0);
 }
 function go_register(t){
 	var t = t.replace(/\s/g,'');
@@ -130,13 +130,13 @@ function go_register(t){
 	}
 	if(t == "yesregister"){
 		tips.innerHTML = "注册成功并已经登录！";
-		window.location.href = "/";	
+		window.location.href = "https://m.qiuwu.net/";	
 	}		
 }
 
 function shuqian(aid,cid,urlchapter){
 	//alert("shuqian");	
-	doAjax("/ajax.php", "addmark=1&urlchapter="+urlchapter+"&aid=" + aid + "&cid=" + cid, "shuqian2", "GET", 0);
+	doAjax("https://m.qiuwu.net/ajax.php", "addmark=1&urlchapter="+urlchapter+"&aid=" + aid + "&cid=" + cid, "shuqian2", "GET", 0);
 }
 function shuqian2(t){
 	var t = t.replace(/\s/g,'');
@@ -146,23 +146,23 @@ function shuqian2(t){
 		$("#shuqian").shtml("<span class=red>已存书签</span>");
 	}
 	if(a[0]==0){
-		window.location.href = "/login.php?url="+a[1];
+		window.location.href = "https://m.qiuwu.net/login.php?url="+a[1];
 	}
 }
 function addbookcase(urlinfo,aid){
-	$.get('/ajax.php',{'addbookcase':'1','urlinfo':urlinfo,'aid':aid},
+	$.get('https://m.qiuwu.net/ajax.php',{'addbookcase':'1','urlinfo':urlinfo,'aid':aid},
 		function(data){
 			data=data.replace(/\s/g,'');data=data.split("|");
 			if(data[0]==1){
 				$('.sj').animate({left:"-5px"},20).animate({left:"10px"},20).animate({left:"-10px"},20).animate({left:"0px"},20).shtml('成功加入书架');
 			}
 			else{
-				window.location.href = "/login.php?url="+data[1];
+				window.location.href = "https://m.qiuwu.net/login.php?url="+data[1];
 			}
 		});
 }
 function case_del(aid){
-	$.post("/ajax.php",{"aid":aid,"case_del":"1"},function(data){
+	$.post("https://m.qiuwu.net/ajax.php",{"aid":aid,"case_del":"1"},function(data){
 		$("#"+aid).shtml("<tr><td class='del1'>删除中，请稍后...</td></tr>");if(data != ""){
 			$("#"+aid).shtml("<tr><td class='del1'>已从书架删除！</td></tr>");
 		}

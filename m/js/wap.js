@@ -9,8 +9,8 @@ $(function(){
 });
 $(function(){
 	$("#header .you .search").click(function(){$("#search").slideToggle();	});
-	$("#type").click(function(){if($("#type").text() == "ÊéÃû"){$(this).shtml("×÷Õß");$("#searchType").val("author");}else{	$(this).shtml("ÊéÃû");$("#searchType").val("articlename");}	});
-	$("#formsearch").submit(function(){if($("#s_key").val() == "ÊäÈëËÑË÷´Ê" || !$("#s_key").val()){alert("ÇëÊäÈëËÑË÷´Ê£¡");return false;}});
+	$("#type").click(function(){if($("#type").text() == "ä¹¦å"){$(this).shtml("ä½œè€…");$("#searchType").val("author");}else{	$(this).shtml("ä¹¦å");$("#searchType").val("articlename");}	});
+	$("#formsearch").submit(function(){if($("#s_key").val() == "è¾“å…¥æœç´¢è¯" || !$("#s_key").val()){alert("è¯·è¾“å…¥æœç´¢è¯ï¼");return false;}});
 })
 $(function(){
 	var b = "20px";var m = "16px"; var s = "12px";
@@ -19,7 +19,7 @@ $(function(){
 	$("#b").click(function(){font("#b",b);});
 	$("#m").click(function(){font("#m",m);});
 	$("#s").click(function(){font("#s",s);});
-	$("#light").click(function(){if($("#light").html() == "¹ØµÆ"){light("off")}else{light("on");}});
+	$("#light").click(function(){if($("#light").html() == "å…³ç¯"){light("off")}else{light("on");}});
 });
 function font(type,fontSize){
 	$(type).addClass("fc").siblings().removeClass("fc");
@@ -28,14 +28,14 @@ function font(type,fontSize){
 	$("#nr").css("font-size",fontSize);
 }
 function light(type){
-	if(type == "off"){$("#zj #light").html("¿ªµÆ");$("#zj").addClass("gd");$("#zj .dise").removeClass("dise").removeClass("header").addClass("gddise").addClass("tmpc");$.cookie("light","off",{path:'/',expires:365});}
-	else{$("#zj #light").html("¹ØµÆ");$("#zj").removeClass("gd");$("#zj .tmpc").removeClass("gddise").addClass("dise");$("header").addClass("header");$.cookie("light","on",{path:'/',expires:365});}
+	if(type == "off"){$("#zj #light").html("å¼€ç¯");$("#zj").addClass("gd");$("#zj .dise").removeClass("dise").removeClass("header").addClass("gddise").addClass("tmpc");$.cookie("light","off",{path:'/',expires:365});}
+	else{$("#zj #light").html("å…³ç¯");$("#zj").removeClass("gd");$("#zj .tmpc").removeClass("gddise").addClass("dise");$("header").addClass("header");$.cookie("light","on",{path:'/',expires:365});}
 }
 function zuoyoufy(url){
 	window.location.href = url;
 }
 document.writeln("<script src='\/\/cdn.jsdelivr.net\/gh\/wwwcdn\/cloud@v1.1\/m\/js\/ajax.js'><\/script>");
-function login(){//¿ªÆôµÇÂ¼
+function login(){//å¼€å¯ç™»å½•
 	uname = document.getElementById("username").value;
 	upass = document.getElementById("userpass").value;
 	_17mb_code = document.getElementById("_17mb_code").value;
@@ -46,19 +46,19 @@ function go_login(t){
 	t = t.replace(/\s/g,'');
 	logintips = document.getElementById("logintips");
 	if(t == "nocode"){
-		logintips.innerHTML = "ÇëÊäÈëÑéÖ¤Âë";
+		logintips.innerHTML = "è¯·è¾“å…¥éªŒè¯ç ";
 		reloadcode();
 	}
 	if(t == "err_code"){
-		logintips.innerHTML = "ÑéÖ¤Âë´íÎó";
+		logintips.innerHTML = "éªŒè¯ç é”™è¯¯";
 		reloadcode();
 	}
 	if(t == "nodata" ){
-		logintips.innerHTML = "ÇëÊäÈëÕÊºÅºÍÃÜÂë";
+		logintips.innerHTML = "è¯·è¾“å…¥å¸å·å’Œå¯†ç ";
 		reloadcode();
 	}
 	if(t == "nologin" ){
-		logintips.innerHTML = "ÕÊºÅ»òÃÜÂë´íÎó£¬µÇÂ¼Ê§°Ü";
+		logintips.innerHTML = "å¸å·æˆ–å¯†ç é”™è¯¯ï¼Œç™»å½•å¤±è´¥";
 		reloadcode();
 	}
 	if(t == "yeslogin" ){
@@ -69,9 +69,9 @@ function go_login(t){
 function is_login(t){
 	var t = t.replace(/\s/g,'');
 	if(t == "right"){
-		document.getElementById("logintips").innerHTML = "µÇÂ¼³É¹¦£¡";
-		var urlarray= new Array(); //¶¨ÒåÒ»Êı×é
-		urlarray = document.URL.split("?url="); //×Ö·û·Ö¸î
+		document.getElementById("logintips").innerHTML = "ç™»å½•æˆåŠŸï¼";
+		var urlarray= new Array(); //å®šä¹‰ä¸€æ•°ç»„
+		urlarray = document.URL.split("?url="); //å­—ç¬¦åˆ†å‰²
 		url = urlarray[1]; 
 		if(url){
 			url = url.replace(/\%2F/g,"/");
@@ -87,7 +87,7 @@ function is_login(t){
 		}
 	}
 	else{
-		document.getElementById("logintips").innerHTML = "ÕÊºÅ»òÃÜÂë´íÎó£¬µÇÂ¼Ê§°Ü£¡";	
+		document.getElementById("logintips").innerHTML = "å¸å·æˆ–å¯†ç é”™è¯¯ï¼Œç™»å½•å¤±è´¥ï¼";	
 	}
 }
 
@@ -102,34 +102,34 @@ function go_register(t){
 	var t = t.replace(/\s/g,'');
 	var tips = document.getElementById("logintips");
 	if(t == "nocode"){
-		tips.innerHTML = "ÇëÊäÈëÑéÖ¤Âë";
+		tips.innerHTML = "è¯·è¾“å…¥éªŒè¯ç ";
 	}
 	if(t == "err_code"){
-		tips.innerHTML = "ÑéÖ¤Âë´íÎó";
+		tips.innerHTML = "éªŒè¯ç é”™è¯¯";
 	}
 	if(t == "nodata"){
-		tips.innerHTML = "ÒÔÉÏĞÅÏ¢¶¼±ØĞëÊäÈë";	
+		tips.innerHTML = "ä»¥ä¸Šä¿¡æ¯éƒ½å¿…é¡»è¾“å…¥";	
 	}
 	if(t == "bigname"){
-		tips.innerHTML = "ÓÃ»§ÃûÌ«³¤£¡10¸öÖĞÎÊ»òÕß30¸öÓ¢ÎÄÒÔÄÚ£¡";	
+		tips.innerHTML = "ç”¨æˆ·åå¤ªé•¿ï¼10ä¸ªä¸­é—®æˆ–è€…30ä¸ªè‹±æ–‡ä»¥å†…ï¼";	
 	}	
 	if(t == "bigpass"){
-		tips.innerHTML = "ÃÜÂëÌ«³¤£¡16Î»ÒÔÄÚ£¡";	
+		tips.innerHTML = "å¯†ç å¤ªé•¿ï¼16ä½ä»¥å†…ï¼";	
 	}	
 	if(t == "bigemail"){
-		tips.innerHTML = "ÓÊÏäÌ«³¤£¡";	
+		tips.innerHTML = "é‚®ç®±å¤ªé•¿ï¼";	
 	}	
 	if(t == "emailerror"){
-		tips.innerHTML = "ÓÊÏä¸ñÊ½´íÎó£¡";	
+		tips.innerHTML = "é‚®ç®±æ ¼å¼é”™è¯¯ï¼";	
 	}
 	if(t == "havename"){
-		tips.innerHTML = "ÓÃ»§ÃûÒÑ±»×¢²á£¡";	
+		tips.innerHTML = "ç”¨æˆ·åå·²è¢«æ³¨å†Œï¼";	
 	}
 	if(t == "haveemial"){
-		tips.innerHTML = "ÓÊÏäÒÑ±»×¢²á£¡";	
+		tips.innerHTML = "é‚®ç®±å·²è¢«æ³¨å†Œï¼";	
 	}
 	if(t == "yesregister"){
-		tips.innerHTML = "×¢²á³É¹¦²¢ÒÑ¾­µÇÂ¼£¡";
+		tips.innerHTML = "æ³¨å†ŒæˆåŠŸå¹¶å·²ç»ç™»å½•ï¼";
 		window.location.href = "https://m.qiuwu.net/";	
 	}		
 }
@@ -143,7 +143,7 @@ function shuqian2(t){
 	//alert(t);
 	var a = t.split("|");
 	if(a[0]==1){
-		$("#shuqian").shtml("<span class=red>ÒÑ´æÊéÇ©</span>");
+		$("#shuqian").shtml("<span class=red>å·²å­˜ä¹¦ç­¾</span>");
 	}
 	if(a[0]==0){
 		window.location.href = "https://m.qiuwu.net/login.php?url="+a[1];
@@ -154,7 +154,7 @@ function addbookcase(urlinfo,aid){
 		function(data){
 			data=data.replace(/\s/g,'');data=data.split("|");
 			if(data[0]==1){
-				$('.sj').animate({left:"-5px"},20).animate({left:"10px"},20).animate({left:"-10px"},20).animate({left:"0px"},20).shtml('³É¹¦¼ÓÈëÊé¼Ü');
+				$('.sj').animate({left:"-5px"},20).animate({left:"10px"},20).animate({left:"-10px"},20).animate({left:"0px"},20).shtml('æˆåŠŸåŠ å…¥ä¹¦æ¶');
 			}
 			else{
 				window.location.href = "https://m.qiuwu.net/login.php?url="+data[1];
@@ -163,25 +163,25 @@ function addbookcase(urlinfo,aid){
 }
 function case_del(aid){
 	$.post("https://m.qiuwu.net/ajax.php",{"aid":aid,"case_del":"1"},function(data){
-		$("#"+aid).shtml("<tr><td class='del1'>É¾³ıÖĞ£¬ÇëÉÔºó...</td></tr>");if(data != ""){
-			$("#"+aid).shtml("<tr><td class='del1'>ÒÑ´ÓÊé¼ÜÉ¾³ı£¡</td></tr>");
+		$("#"+aid).shtml("<tr><td class='del1'>åˆ é™¤ä¸­ï¼Œè¯·ç¨å...</td></tr>");if(data != ""){
+			$("#"+aid).shtml("<tr><td class='del1'>å·²ä»ä¹¦æ¶åˆ é™¤ï¼</td></tr>");
 		}
 	});
 }
 
-//¹ã¸æ¿ªÊ¼
-function _17mb_top(){//¶¥²¿¹ã¸æ
+//å¹¿å‘Šå¼€å§‹
+function _17mb_top(){//é¡¶éƒ¨å¹¿å‘Š
 	document.writeln("");
 }
 
-function _17mb_middle(){//ÖĞ¼ä¹ã¸æ
+function _17mb_middle(){//ä¸­é—´å¹¿å‘Š
 	document.writeln("");
 }
 
-function _17mb_bottom(){//µ×¶Ë¹ã¸æ
+function _17mb_bottom(){//åº•ç«¯å¹¿å‘Š
 	document.writeln("");
 }
-function _17mb_tj(){//Í³¼Æ´úÂë
+function _17mb_tj(){//ç»Ÿè®¡ä»£ç 
 	//baidu tj
 var _hmt = _hmt || [];
 (function() {

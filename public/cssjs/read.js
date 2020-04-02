@@ -1,15 +1,15 @@
-//document.writeln("<div class=\'urgent\'><a href=\'http://www.qiuwu.net/feedback/\'><font color=\'black\' size=\'3\'><strong>¼´ÈÕÆğ¾Ù±¨Ò»±¾Éæ»ÆÊé¼®¾Í½±Àø5Ôª,ÉÏ²»·â¶¥¾Ù±¨Ô½¶à½±ÀøÔ½¶à,µã»÷´Ë´¦½øĞĞ¾Ù±¨</strong></font></a></div>");
-document.write('<SCRIPT language=JavaScript src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/public/cssjs/uaredirect.js"></SCRIPT>');
-document.write('<SCRIPT language=JavaScript src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/public/cssjs/m.js"></SCRIPT>');
-document.write('<SCRIPT language=JavaScript src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/public/cssjs/cssjs.js"></SCRIPT>');
-document.write('<SCRIPT language=JavaScript src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/public/cssjs/head.js"></SCRIPT>');
+//document.writeln("<div class=\'urgent\'><a href=\'http://www.qiuwu.net/feedback/\'><font color=\'black\' size=\'3\'><strong>å³æ—¥èµ·ä¸¾æŠ¥ä¸€æœ¬æ¶‰é»„ä¹¦ç±å°±å¥–åŠ±5å…ƒ,ä¸Šä¸å°é¡¶ä¸¾æŠ¥è¶Šå¤šå¥–åŠ±è¶Šå¤š,ç‚¹å‡»æ­¤å¤„è¿›è¡Œä¸¾æŠ¥</strong></font></a></div>");
+document.write('<SCRIPT language=JavaScript src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/public/cssjs/uaredirect.js"></SCRIPT>');
+document.write('<SCRIPT language=JavaScript src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/public/cssjs/m.js"></SCRIPT>');
+document.write('<SCRIPT language=JavaScript src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/public/cssjs/cssjs.js"></SCRIPT>');
+document.write('<SCRIPT language=JavaScript src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/public/cssjs/head.js"></SCRIPT>');
 document.write('<SCRIPT language=JavaScript src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></SCRIPT>');
 
 
 
-//ÔÄ¶ÁÒ³°´Å¥
+//é˜…è¯»é¡µæŒ‰é’®
 function bottom_read(){
-document.writeln("document.write(\'<table width=\"85%\" align=center cellspacing=\"0\" cellpadding=\"0\" style=\"margin-top:10px;\"><tr><td align=center><a href=\"###\" onclick=\"showpop(\/\/\'/modules/article/addbookcase.php?id=\'+bookid+\'&cid=\'+contentid+\'&ajax_request=1\/\/\')\">¼ÓÈëÊéÇ©</a>£ü<a href=\"###\" onclick=\"showpop(\/\/\'/modules/article/uservote.php?id=\'+bookid+\'&ajax_request=1\/\/\')\">ÍÆ¼ö±¾Êé</a>£ü<a href=\"/zzz/\' + bookid + \'/\">·µ»ØÊéÒ³</a>£ü<a href=\"index.shtml\">·µ»ØÄ¿Â¼</a></td></tr></table>\');");
+document.writeln("document.write(\'<table width=\"85%\" align=center cellspacing=\"0\" cellpadding=\"0\" style=\"margin-top:10px;\"><tr><td align=center><a href=\"###\" onclick=\"showpop(\/\/\'/modules/article/addbookcase.php?id=\'+bookid+\'&cid=\'+contentid+\'&ajax_request=1\/\/\')\">åŠ å…¥ä¹¦ç­¾</a>ï½œ<a href=\"###\" onclick=\"showpop(\/\/\'/modules/article/uservote.php?id=\'+bookid+\'&ajax_request=1\/\/\')\">æ¨èæœ¬ä¹¦</a>ï½œ<a href=\"/zzz/\' + bookid + \'/\">è¿”å›ä¹¦é¡µ</a>ï½œ<a href=\"index.shtml\">è¿”å›ç›®å½•</a></td></tr></table>\');");
 }
 
 //read_select.js
@@ -17,35 +17,35 @@ function read_select(){
 var defautlBGcolor=document.bgColor;
 var h = "";																																																																																																																																																																																																																																																																																																																																																																																																																																																																	 var defautlBGcolor=document.bgColor;
 document.writeln("<div align=\"center\" style=\"font-size:12px\">");
-document.write('Ò³Ãæ¿í¶È<select name=width id=width onchange="javascript:setwidth(this.options[this.selectedIndex].value);"><option value="">Ä¬ÈÏ</option><option value="640px">640</option><option value="800px">800</option><option value="980px">1024</option><option  value="1140px">1280</option><option value="1300px">1440</option><option value="1780px">1920</option></select>&nbsp;   ±³¾°ÑÕÉ«<select name=bcolor id=bcolor onchange="javascript:setBGColor(this.options[this.selectedIndex].value);"><option style="background-color: '+defautlBGcolor+';" value="'+defautlBGcolor+'">±³¾°</option><option style="background-color: #ffffff" value="#ffffff">°×É«</option><option style="background-color: #f0f0f0" value="#f0f0f0">µ­»Ò</option><option style="background-color: #e6f3ff" value="#e6f3ff">À¶É«</option><option style="background-color: #eeeeee" value="#eeeeee">µ­»Ò</option><option style="background-color: #eaeaea" value="#eaeaea">»ÒÉ«</option><option style="background-color: #e4e1d8" value="#e4e1d8">Éî»Ò</option><option style="background-color: #e6e6e6" value="#e6e6e6">°µ»Ò</option><option style="background-color: #eefaee" value="#eefaee">ÂÌÉ«</option><option style="background-color: #ffffed" value="#ffffed">Ã÷»Æ</option></select>&nbsp;×ÖÌåÑÕÉ«<select name=txtcolor id=txtcolor onchange="javascript:setFONTColor(this.options[this.selectedIndex].value);"><option value="#000000">ºÚÉ«</option><option value="#ff0000">ºìÉ«</option><option value="#006600">ÂÌÉ«</option><option value="#0000ff">À¶É«</option><option value="#660000">×ØÉ«</option></select>&nbsp;×ÖÌå´óĞ¡<select name=fonttype id=fonttype onchange="javascript:setFONTSize(this.options[this.selectedIndex].value);setFONTColor(txtcolor.options[txtcolor.selectedIndex].value)"><option value="font-size:12px;" >Ğ¡ºÅ</option><option value="font-size:14px;" >½ÏĞ¡</option><option value="font-size:16px;" >ÖĞºÅ</option><option value="font-size:20px;" >½Ï´ó</option><option value="font-size:26px;" >´óºÅ</option></select>&nbsp;Êó±êË«»÷¹öÆÁ<select name=scrollspeed id=scrollspeed  onchange="javascript:setSpeed(this.options[this.selectedIndex].value);" ><option value=1>1×îÂı</option>');
+document.write('é¡µé¢å®½åº¦<select name=width id=width onchange="javascript:setwidth(this.options[this.selectedIndex].value);"><option value="">é»˜è®¤</option><option value="640px">640</option><option value="800px">800</option><option value="980px">1024</option><option  value="1140px">1280</option><option value="1300px">1440</option><option value="1780px">1920</option></select>&nbsp;   èƒŒæ™¯é¢œè‰²<select name=bcolor id=bcolor onchange="javascript:setBGColor(this.options[this.selectedIndex].value);"><option style="background-color: '+defautlBGcolor+';" value="'+defautlBGcolor+'">èƒŒæ™¯</option><option style="background-color: #ffffff" value="#ffffff">ç™½è‰²</option><option style="background-color: #f0f0f0" value="#f0f0f0">æ·¡ç°</option><option style="background-color: #e6f3ff" value="#e6f3ff">è“è‰²</option><option style="background-color: #eeeeee" value="#eeeeee">æ·¡ç°</option><option style="background-color: #eaeaea" value="#eaeaea">ç°è‰²</option><option style="background-color: #e4e1d8" value="#e4e1d8">æ·±ç°</option><option style="background-color: #e6e6e6" value="#e6e6e6">æš—ç°</option><option style="background-color: #eefaee" value="#eefaee">ç»¿è‰²</option><option style="background-color: #ffffed" value="#ffffed">æ˜é»„</option></select>&nbsp;å­—ä½“é¢œè‰²<select name=txtcolor id=txtcolor onchange="javascript:setFONTColor(this.options[this.selectedIndex].value);"><option value="#000000">é»‘è‰²</option><option value="#ff0000">çº¢è‰²</option><option value="#006600">ç»¿è‰²</option><option value="#0000ff">è“è‰²</option><option value="#660000">æ£•è‰²</option></select>&nbsp;å­—ä½“å¤§å°<select name=fonttype id=fonttype onchange="javascript:setFONTSize(this.options[this.selectedIndex].value);setFONTColor(txtcolor.options[txtcolor.selectedIndex].value)"><option value="font-size:12px;" >å°å·</option><option value="font-size:14px;" >è¾ƒå°</option><option value="font-size:16px;" >ä¸­å·</option><option value="font-size:20px;" >è¾ƒå¤§</option><option value="font-size:26px;" >å¤§å·</option></select>&nbsp;é¼ æ ‡åŒå‡»æ»šå±<select name=scrollspeed id=scrollspeed  onchange="javascript:setSpeed(this.options[this.selectedIndex].value);" ><option value=1>1æœ€æ…¢</option>');
  for(var i=2;i<10;i++){
 	document.write('<option value='+i+'>'+i+'</option>');	
  }
-document.write('<option value=10>10×î¿ì</option></select>&nbsp;<input type=checkbox name=autopage id=autopage onchange="javascript:setAutopage();" value="" />¹öÆÁ½áÊø×Ô¶¯·­Ò³');
+document.write('<option value=10>10æœ€å¿«</option></select>&nbsp;<input type=checkbox name=autopage id=autopage onchange="javascript:setAutopage();" value="" />æ»šå±ç»“æŸè‡ªåŠ¨ç¿»é¡µ');
 
 }
 //read_select_do.js
 
 function read_select_do(){
-// °Ù¶ÈÍÆ¼ö
+// ç™¾åº¦æ¨è
 document.writeln("<center>")
-document.writeln("<font color=red size =5>ÍøÕ¾BUGÒÑĞŞ¸´£¡<\/font>");
+document.writeln("<font color=red size =5>ç½‘ç«™BUGå·²ä¿®å¤ï¼<\/font>");
 document.writeln("<\/center>")
 
 document.writeln("<div id=\'hm_t_117603\'></div>");
-document.writeln("<SCRIPT language=JavaScript src=\"https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/public/cssjs/read_select_do.js\"></SCRIPT>");
+document.writeln("<SCRIPT language=JavaScript src=\"https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/public/cssjs/read_select_do.js\"></SCRIPT>");
 
 
 }
 
-//Í³¼Æ
+//ç»Ÿè®¡
 function tongji(){
 document.writeln("<script type=\"text/javascript\" src=\"https://cssjs.lisawuwa.com/public/cssjs/count.js\"></script>");
 }
 
 //bottom_read.js
 function bottom_read(){
-document.write('<table width="85%" align=center cellspacing="0" cellpadding="0" style="margin-top:10px;"><tr><td align=center><a href="###" onclick="showpop(\'/modules/article/addbookcase.php?id='+bookid+'&cid='+contentid+'&ajax_request=1\')">¼ÓÈëÊéÇ©</a>£ü<a href="###" onclick="showpop(\'/modules/article/uservote.php?id='+bookid+'&ajax_request=1\')">ÍÆ¼ö±¾Êé</a>£ü<a href="/modules/article/bookcase.php" target=_blank>´ò¿ªÊé¼Ü</a>£ü<a href="/zzz/'+ bookid +'/">·µ»ØÊéÒ³£ü<a href="index.shtml">·µ»ØÄ¿Â¼</a></td></tr></table>');
+document.write('<table width="85%" align=center cellspacing="0" cellpadding="0" style="margin-top:10px;"><tr><td align=center><a href="###" onclick="showpop(\'/modules/article/addbookcase.php?id='+bookid+'&cid='+contentid+'&ajax_request=1\')">åŠ å…¥ä¹¦ç­¾</a>ï½œ<a href="###" onclick="showpop(\'/modules/article/uservote.php?id='+bookid+'&ajax_request=1\')">æ¨èæœ¬ä¹¦</a>ï½œ<a href="/modules/article/bookcase.php" target=_blank>æ‰“å¼€ä¹¦æ¶</a>ï½œ<a href="/zzz/'+ bookid +'/">è¿”å›ä¹¦é¡µï½œ<a href="index.shtml">è¿”å›ç›®å½•</a></td></tr></table>');
 }
 
 
@@ -57,7 +57,7 @@ function read_top_menu(){
 	<div id="public_top_window">\
 		<table cellspacing="15" height=135 >\
 		  <tr> \
-			<td bgcolor=#c1dce7  onclick="changeBG(1)" title="Ä¬ÈÏ·½°¸">&nbsp;</td>\
+			<td bgcolor=#c1dce7  onclick="changeBG(1)" title="é»˜è®¤æ–¹æ¡ˆ">&nbsp;</td>\
 			<td bgcolor=#d2e7d2 onclick="changeBG(2)"  >&nbsp;</td>\
 			<td bgcolor=#eac5db onclick="changeBG(3)" >&nbsp;</td>\
 			<td bgcolor=#b8cdc9 onclick="changeBG(4)" >&nbsp;</td>\
@@ -76,16 +76,16 @@ function read_top_menu(){
 	';
 	var str='\
 	<div id="bannar" class="link_12_bold">\
-		<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0" id=imgcontentbg background="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/css/'+css_style+'/content_top_1_32.gif">\
+		<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0" id=imgcontentbg background="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/css/'+css_style+'/content_top_1_32.gif">\
 		  <tr> \
 			<td width="5%" height="32">&nbsp;<img id=imggirl src="/css/'+css_style+'/girl.gif" width="31" height="29" />&nbsp;</td>\
-			<td width="24%" ><a href="https://www.qiuwu.net/">·ïÎèÎÄÑ§Íø</a>&nbsp;&nbsp;<a href="javascript:;" onmouseover="showhidecolor()">¨‹ Ñ¡ÔñÅäÉ«·½°¸ ¨‹</a>'+sss+'</td>\
-			<td width="71%" style="text-align:right"><a href="/newmessage.php?tosys=1&title='+articlename+'--'+chaptername+'ÕÂ½Ú³ö´íÀ²!&content=´íÎóÕÂ½Ú£º'+chaptername+' ++++ ¾Ù±¨Ô­ÒòÈçÏÂ£º " target="_blank"" style="color:red">ÕÂ½Ú´íÎó/µã´Ë¾Ù±¨</a>&nbsp;\
-			<a href="/newmessage.php?tosys=1&title='+articlename+'¸üĞÂÌ«ÂıÀ²!&content= ¡¶'+articlename+'¡· ¸üĞÂÌ«ÂıÁË,Çë¼Ó¿ìËÙ¶È,±ğµÄÍøÕ¾¶¼ÓĞ×îĞÂÕÂ½ÚÁË.(ÇëÄú×îºÃ¸æËßÎÒÃÇÏÖÔÚÓĞÄÄ¸öÍøÕ¾¸üĞÂËÙ¶È±ÈÎÒÃÇ¿ì£¬ÒÔ±ãÊ¹ÎÒÃÇÖªµÀ½ø¶ÈÂäºóµÄ×´¿ö) ÒÔÏÂÍøÕ¾±ÈÂäÇï¸üĞÂµÄ¿ì:" target="_blank" style="color:red">¸üĞÂÂıÁË/µã´Ë¾Ù±¨</a>&nbsp;\
-			<a href="'+index_page+'">·µ»ØÊéÄ¿</a>&nbsp;\
-			<a href="###" onclick="showpop(\'/modules/article/addbookcase.php?id='+bookid+'&cid='+contentid+'&ajax_request=1\')">·ÅÈëÊé¼Ü</a>&nbsp;\
-			<a href="###" onclick="showpop(\'/modules/article/uservote.php?id='+bookid+'&ajax_request=1\')">ÍÆ¼ö±¾Êé</a>&nbsp;\
-			<a href="/zzz/'+ bookid +'/">·µ»ØÊéÒ³</a>\
+			<td width="24%" ><a href="https://www.qiuwu.net/">å‡¤èˆæ–‡å­¦ç½‘</a>&nbsp;&nbsp;<a href="javascript:;" onmouseover="showhidecolor()">â–¼ é€‰æ‹©é…è‰²æ–¹æ¡ˆ â–¼</a>'+sss+'</td>\
+			<td width="71%" style="text-align:right"><a href="/newmessage.php?tosys=1&title='+articlename+'--'+chaptername+'ç« èŠ‚å‡ºé”™å•¦!&content=é”™è¯¯ç« èŠ‚ï¼š'+chaptername+' ++++ ä¸¾æŠ¥åŸå› å¦‚ä¸‹ï¼š " target="_blank"" style="color:red">ç« èŠ‚é”™è¯¯/ç‚¹æ­¤ä¸¾æŠ¥</a>&nbsp;\
+			<a href="/newmessage.php?tosys=1&title='+articlename+'æ›´æ–°å¤ªæ…¢å•¦!&content= ã€Š'+articlename+'ã€‹ æ›´æ–°å¤ªæ…¢äº†,è¯·åŠ å¿«é€Ÿåº¦,åˆ«çš„ç½‘ç«™éƒ½æœ‰æœ€æ–°ç« èŠ‚äº†.(è¯·æ‚¨æœ€å¥½å‘Šè¯‰æˆ‘ä»¬ç°åœ¨æœ‰å“ªä¸ªç½‘ç«™æ›´æ–°é€Ÿåº¦æ¯”æˆ‘ä»¬å¿«ï¼Œä»¥ä¾¿ä½¿æˆ‘ä»¬çŸ¥é“è¿›åº¦è½åçš„çŠ¶å†µ) ä»¥ä¸‹ç½‘ç«™æ¯”è½ç§‹æ›´æ–°çš„å¿«:" target="_blank" style="color:red">æ›´æ–°æ…¢äº†/ç‚¹æ­¤ä¸¾æŠ¥</a>&nbsp;\
+			<a href="'+index_page+'">è¿”å›ä¹¦ç›®</a>&nbsp;\
+			<a href="###" onclick="showpop(\'/modules/article/addbookcase.php?id='+bookid+'&cid='+contentid+'&ajax_request=1\')">æ”¾å…¥ä¹¦æ¶</a>&nbsp;\
+			<a href="###" onclick="showpop(\'/modules/article/uservote.php?id='+bookid+'&ajax_request=1\')">æ¨èæœ¬ä¹¦</a>&nbsp;\
+			<a href="/zzz/'+ bookid +'/">è¿”å›ä¹¦é¡µ</a>\
 		  </tr>\
 		</table>\
 	</div>\
@@ -101,7 +101,7 @@ function read_top_menu_index(){
 	<div id="public_top_window">\
 		<table cellspacing="15" height=135 >\
 		  <tr> \
-			<td bgcolor=#c1dce7  onclick="changeBG(1)" title="Ä¬ÈÏ·½°¸">&nbsp;</td>\
+			<td bgcolor=#c1dce7  onclick="changeBG(1)" title="é»˜è®¤æ–¹æ¡ˆ">&nbsp;</td>\
 			<td bgcolor=#d2e7d2 onclick="changeBG(2)"  >&nbsp;</td>\
 			<td bgcolor=#eac5db onclick="changeBG(3)" >&nbsp;</td>\
 			<td bgcolor=#b8cdc9 onclick="changeBG(4)" >&nbsp;</td>\
@@ -122,14 +122,14 @@ function read_top_menu_index(){
 	<div id="bannar" class="link_12_bold">\
 		<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0" id=imgcontentbg background="/css/'+css_style+'/content_top_1_32.gif">\
 		  <tr> \
-			<td width="5%" height="32">&nbsp;<img id=imggirl src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/css/'+css_style+'/girl.gif" width="31" height="29" />&nbsp;</td>\
-			<td width="22%" ><a href="https://www.qiuwu.net/">·ïÎèÎÄÑ§Íø</a>&nbsp;&nbsp;<a href="javascript:;" onmouseover="showhidecolor()">¨‹ Ñ¡ÔñÅäÉ«·½°¸ ¨‹</a>'+sss+'</td>\
-			<td width="73%" style="text-align:right"><a href="/newmessage.php?tosys=1&title='+articlename+'--'+chaptername+'ÕÂ½Ú³ö´íÀ²!&content=´íÎóÕÂ½Ú£º'+chaptername+' ++++ ¾Ù±¨Ô­ÒòÈçÏÂ£º " target="_blank"" style="color:red">ÕÂ½Ú´íÎó/µã´Ë¾Ù±¨</a>&nbsp;\
-			<a href="/newmessage.php?tosys=1&title='+articlename+'¸üĞÂÌ«ÂıÀ²!&content= ¡¶'+articlename+'¡· ¸üĞÂÌ«ÂıÁË,Çë¼Ó¿ìËÙ¶È,±ğµÄÍøÕ¾¶¼ÓĞ×îĞÂÕÂ½ÚÁË.(ÇëÄú×îºÃ¸æËßÎÒÃÇÏÖÔÚÓĞÄÄ¸öÍøÕ¾¸üĞÂËÙ¶È±ÈÎÒÃÇ¿ì£¬ÒÔ±ãÊ¹ÎÒÃÇÖªµÀ½ø¶ÈÂäºóµÄ×´¿ö) ÒÔÏÂÍøÕ¾±ÈÈ¼ÎÄ¸üĞÂµÄ¿ì:" target="_blank" style="color:red">¸üĞÂÂıÁË/µã´Ë¾Ù±¨</a>&nbsp;\
-			<a href="###" onclick="showpop(\'/modules/article/addbookcase.php?bid='+bookid+'&ajax_request=1\')">·ÅÈëÊé¼Ü</a>&nbsp;\
-			<a href="###" onclick="showpop(\'/modules/article/uservote.php?id='+bookid+'&ajax_request=1\')">ÍÆ¼ö±¾Êé</a>&nbsp;\
+			<td width="5%" height="32">&nbsp;<img id=imggirl src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/css/'+css_style+'/girl.gif" width="31" height="29" />&nbsp;</td>\
+			<td width="22%" ><a href="https://www.qiuwu.net/">å‡¤èˆæ–‡å­¦ç½‘</a>&nbsp;&nbsp;<a href="javascript:;" onmouseover="showhidecolor()">â–¼ é€‰æ‹©é…è‰²æ–¹æ¡ˆ â–¼</a>'+sss+'</td>\
+			<td width="73%" style="text-align:right"><a href="/newmessage.php?tosys=1&title='+articlename+'--'+chaptername+'ç« èŠ‚å‡ºé”™å•¦!&content=é”™è¯¯ç« èŠ‚ï¼š'+chaptername+' ++++ ä¸¾æŠ¥åŸå› å¦‚ä¸‹ï¼š " target="_blank"" style="color:red">ç« èŠ‚é”™è¯¯/ç‚¹æ­¤ä¸¾æŠ¥</a>&nbsp;\
+			<a href="/newmessage.php?tosys=1&title='+articlename+'æ›´æ–°å¤ªæ…¢å•¦!&content= ã€Š'+articlename+'ã€‹ æ›´æ–°å¤ªæ…¢äº†,è¯·åŠ å¿«é€Ÿåº¦,åˆ«çš„ç½‘ç«™éƒ½æœ‰æœ€æ–°ç« èŠ‚äº†.(è¯·æ‚¨æœ€å¥½å‘Šè¯‰æˆ‘ä»¬ç°åœ¨æœ‰å“ªä¸ªç½‘ç«™æ›´æ–°é€Ÿåº¦æ¯”æˆ‘ä»¬å¿«ï¼Œä»¥ä¾¿ä½¿æˆ‘ä»¬çŸ¥é“è¿›åº¦è½åçš„çŠ¶å†µ) ä»¥ä¸‹ç½‘ç«™æ¯”ç‡ƒæ–‡æ›´æ–°çš„å¿«:" target="_blank" style="color:red">æ›´æ–°æ…¢äº†/ç‚¹æ­¤ä¸¾æŠ¥</a>&nbsp;\
+			<a href="###" onclick="showpop(\'/modules/article/addbookcase.php?bid='+bookid+'&ajax_request=1\')">æ”¾å…¥ä¹¦æ¶</a>&nbsp;\
+			<a href="###" onclick="showpop(\'/modules/article/uservote.php?id='+bookid+'&ajax_request=1\')">æ¨èæœ¬ä¹¦</a>&nbsp;\
 			<script src=\'/shujia/52mb.php\'></script>&nbsp;\
-			<a href="/zzz/'+ bookid +'/">·µ»ØÊéÒ³</a>\
+			<a href="/zzz/'+ bookid +'/">è¿”å›ä¹¦é¡µ</a>\
 		  </tr>\
 		</table>\
 	</div>\
@@ -142,7 +142,7 @@ function read_top_menu_index(){
 
 //jieqi common
 
-//È¡µÃÒ»¸ö¶ÔÏó£¬Ïàµ±ÓÚgetElementById()
+//å–å¾—ä¸€ä¸ªå¯¹è±¡ï¼Œç›¸å½“äºgetElementById()
 function GetObjcet() {
   var elements = new Array();
   for (var i = 0; i < arguments.length; i++) {
@@ -155,14 +155,14 @@ function GetObjcet() {
   return elements;
 }
 
-//°ÑËü½ÓÊÕµ½µÄµ¥¸öµÄ²ÎÊı×ª»»³ÉÒ»¸öArray¶ÔÏó¡£
+//æŠŠå®ƒæ¥æ”¶åˆ°çš„å•ä¸ªçš„å‚æ•°è½¬æ¢æˆä¸€ä¸ªArrayå¯¹è±¡ã€‚
 function GetObjcetA(list){
 	var arr = [];
 	for (var i=0,len=list.length; i<len; i++){arr[i] = list[i];}
 	return arr;
 }
 
-//³£ÓÃº¯ÊıÀ©Õ¹
+//å¸¸ç”¨å‡½æ•°æ‰©å±•
 var Method = {
 	Element	: function(){
 		this.hide = function(){this.style.display="none"; return this;};
@@ -194,7 +194,7 @@ var Method = {
 Method.Array.apply(Array.prototype);
 Method.String.apply(String.prototype);
 
-//cookie´¦Àí
+//cookieå¤„ç†
 var Cookie = {
     get : function(n){
 	    var dc = "; "+document.cookie+"; ";
@@ -223,9 +223,9 @@ var Cookie = {
     }
 }
 
-//formÏà¹Øº¯Êı
+//formç›¸å…³å‡½æ•°
 var Form = {
-	//°Ñ±í¸ñÄÚÈİ×ª»¯³Éstring
+	//æŠŠè¡¨æ ¼å†…å®¹è½¬åŒ–æˆstring
   serialize: function(form) {
     var elements = Form.getElements(GetObjcet(form));
     var queryComponents = new Array();
@@ -235,7 +235,7 @@ var Form = {
     }
     return queryComponents.join('&');
   },
-  //È¡µÃ±íµ¥ÄÚÈİÎªÊı×éĞÎÊ½
+  //å–å¾—è¡¨å•å†…å®¹ä¸ºæ•°ç»„å½¢å¼
   getElements: function(form) {
     form = GetObjcet(form);
     var elements = new Array();
@@ -246,7 +246,7 @@ var Form = {
     }
     return elements;
   },
-  //disable±íµ¥ËùÓĞÄÚÈİ
+  //disableè¡¨å•æ‰€æœ‰å†…å®¹
   disable: function(form) {
     var elements = Form.getElements(form);
     for (var i = 0; i < elements.length; i++) {
@@ -255,7 +255,7 @@ var Form = {
       element.disabled = 'true';
     }
   },
-  //enable±íµ¥ËùÓĞÄÚÈİ
+  //enableè¡¨å•æ‰€æœ‰å†…å®¹
   enable: function(form) {
     var elements = Form.getElements(form);
     for (var i = 0; i < elements.length; i++) {
@@ -263,13 +263,13 @@ var Form = {
       element.disabled = '';
     }
   },
-  //Reset±íµ¥
+  //Resetè¡¨å•
   reset: function(form) {
     GetObjcet(form).reset();
   }
 }
 
-//formÀïÃæÔªËØ¶¨Òå
+//formé‡Œé¢å…ƒç´ å®šä¹‰
 Form.Element = {
   serialize: function(element) {
     element = GetObjcet(element);
@@ -347,10 +347,10 @@ Form.Element.Serializers = {
   }
 }
 
-//È¡formÀïÃæÎï¼şµÄÖµ£¬µÈÍ¬ÓÚForm.Element.getValue()
+//å–formé‡Œé¢ç‰©ä»¶çš„å€¼ï¼Œç­‰åŒäºForm.Element.getValue()
 var GetObjcetF = Form.Element.getValue;
 
-//ajax´¦Àí
+//ajaxå¤„ç†
 function jieqi_ajax() {
 	this.init = function() {
 		this.handler = null;
@@ -587,7 +587,7 @@ var Ajax = {
 	}
 }
 
-//³£ÓÃ¹¦ÄÜº¯Êı
+//å¸¸ç”¨åŠŸèƒ½å‡½æ•°
 function pageWidth(){
 	return window.innerWidth != null ? window.innerWidth : document.documentElement && document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body != null ? document.body.clientWidth : null;
 }
@@ -729,7 +729,7 @@ function loadJs(url){
 }
 
 
-//Í¨ÓÃ¹¦ÄÜ
+//é€šç”¨åŠŸèƒ½
 function GetObj(objName){
 	if(document.getElementById){
 		return eval('document.getElementById("' + objName + '")');
@@ -739,41 +739,41 @@ function GetObj(objName){
 		return eval('document.all.' + objName);
 	}
 }
-//tabÇĞ»»
+//tabåˆ‡æ¢
 function showTab(cid,no) 
 {
 	
 	for (var i = 1; i < 10; i++){
-		var tt = GetObj(cid + "_" + i);//Çø¿éÒş²Ø
+		var tt = GetObj(cid + "_" + i);//åŒºå—éšè—
 		if (tt != null) {
 			tt.style.display = 'none';
 		}
 		else{
 			break;
 		}
-		var oo = GetObj(cid + i);//°´Å¥»Ö¸´
+		var oo = GetObj(cid + i);//æŒ‰é’®æ¢å¤
 		if (oo!= null){
 			oo.className = '';
 		}
 	}
 
-	var tt = GetObj(cid + "_" + no);//Çø¿éÏÔÊ¾
+	var tt = GetObj(cid + "_" + no);//åŒºå—æ˜¾ç¤º
 	if (tt != null) {
 			tt.style.display = 'block';
 	}
-	var oo = GetObj(cid + no);//°´Å¥±äÉ«
+	var oo = GetObj(cid + no);//æŒ‰é’®å˜è‰²
 	if (oo!= null) 	{
 			oo.className = 'on';
 	}
 
 }
-//ÍË³öÊéÇ©
+//é€€å‡ºä¹¦ç­¾
 function bookmark()
 {
 if(readCookie("bookmark")!="yes") 
 {
 saveCookie("bookmark","yes",1);
-window.external.AddFavorite('http://www.uctxt.com', 'UCµç×ÓÊé');
+window.external.AddFavorite('http://www.uctxt.com', 'UCç”µå­ä¹¦');
 }
 }
 
@@ -797,14 +797,14 @@ function readCookie(name) {
      return null
 }
 
-//Í¶Æ±
+//æŠ•ç¥¨
 function vote(id)
 {
 	url="/modules/article/uservote.php?id="+id;
 	
 	Ajax.Request(url,{onComplete:function(){displayDialog(this.response.replace(/<br[^<>]*>/g,'\n'));}});
 }
-//ÊéÇ©
+//ä¹¦ç­¾
 function addbookcase(bid,cid)
 {
 	
@@ -812,10 +812,10 @@ function addbookcase(bid,cid)
 	Ajax.Request(url,{onComplete:function(){displayDialog(this.response.replace(/<br[^<>]*>/g,'\n'));}});
 	//Ajax.Tip(event,url,3000);
 }
-//´íÎó¾Ù±¨
+//é”™è¯¯ä¸¾æŠ¥
 function report(title)
 {
-	url="/newmessage.php?tosys=1&title="+title+"&content="+top.window.location.href+"%0D%0A%0D%0A¾Ù±¨Ô­ÒòÈçÏÂ£º"
+	url="/newmessage.php?tosys=1&title="+title+"&content="+top.window.location.href+"%0D%0A%0D%0Aä¸¾æŠ¥åŸå› å¦‚ä¸‹ï¼š"
 	window.open(url);
 	//openDialog(url,1)
 }

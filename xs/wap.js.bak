@@ -1,4 +1,4 @@
-document.writeln("<script src='\/wap/xbaixs\/ajax.js'><\/script>");
+﻿document.writeln("<script src='\/wap/xbaixs\/ajax.js'><\/script>");
 
 function showlogin(){//顶部登录框判断是否登录
 	doAjax("/modules/article/wapajax.php", "showlogin=1", "showlogin2", "GET", 0);

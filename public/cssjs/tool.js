@@ -5,13 +5,13 @@ document.writeln("  <td style=\"text-align: center;\">");
 document.writeln("<div class=\"toolbar clearfix\">");
 document.writeln("	<div id=\"mark_bar\">");
 document.writeln('		<div class=\"mark\"  onClick=\"vote('+bookid+');\" onmouseout=\"this.style.backgroundPosition=\'-189px 0\'\" onmouseover=\"this.style.backgroundPosition=\'0 0\'\">');
-document.writeln("		<div>ÎÒÏ²»¶Õâ±¾Ğ¡Ëµ&nbsp;<span>ÍÆ¼ö</span></div>");
+document.writeln("		<div>æˆ‘å–œæ¬¢è¿™æœ¬å°è¯´&nbsp;<span>æ¨è</span></div>");
 document.writeln("		</div>");
 document.writeln('		<div class=\"mark\" onClick=\"addbookcase('+bookid+','+contentid+');\" onmouseout=\"this.style.backgroundPosition=\'-189px 0\'\" onmouseover=\"this.style.backgroundPosition=\'0 0\'\">');
-document.writeln("		<div id=\"lastcp\">ÔİÊ±ÏÈ¿´µ½ÕâÀï&nbsp;<span>ÊéÇ©</span></div>");
+document.writeln("		<div id=\"lastcp\">æš‚æ—¶å…ˆçœ‹åˆ°è¿™é‡Œ&nbsp;<span>ä¹¦ç­¾</span></div>");
 document.writeln("		</div>");
 document.writeln("		<div class=\"mark\" onclick=\"window.open('http://www.qiuwu.net/\')\" onmouseout=\"this.style.backgroundPosition=\'-189px 0\'\" onmouseover=\"this.style.backgroundPosition=\'0 0\'\">");
-document.writeln("		<div>·µ»Ø&nbsp;<span>Ê×Ò³</span></div>");
+document.writeln("		<div>è¿”å›&nbsp;<span>é¦–é¡µ</span></div>");
 document.writeln("		</div>");
 document.writeln("	</div>");
 document.writeln("</div>");
@@ -23,12 +23,12 @@ document.writeln("</table>");
 nextpage= next_page ;
 	if(nextpage.indexOf('lastchapter')>0||nextpage=="index.shtml")
 	{
-	document.getElementById("lastcp").innerHTML="<font color=#009000>ÒÑ¾­µ½×îºóÒ»ÕÂ&nbsp;<span>ÊéÇ©</span></font>";
+	document.getElementById("lastcp").innerHTML="<font color=#009000>å·²ç»åˆ°æœ€åä¸€ç« &nbsp;<span>ä¹¦ç­¾</span></font>";
 
 	}
 nextpage= next_page ;
 	if(nextpage.indexOf('lastchapter')>0||nextpage=="./")
 	{
-	document.getElementById("lastcp").innerHTML="<font color=#009000>ÒÑ¾­µ½×îºóÒ»ÕÂ&nbsp;<span>ÊéÇ©</span></font>";
+	document.getElementById("lastcp").innerHTML="<font color=#009000>å·²ç»åˆ°æœ€åä¸€ç« &nbsp;<span>ä¹¦ç­¾</span></font>";
 
 	}

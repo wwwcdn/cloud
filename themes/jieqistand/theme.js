@@ -1,4 +1,4 @@
-//ÏÂÀ­²Ëµ¥
+//ä¸‹æ‹‰èœå•
 function menufix() {
 	var sfEls=document.getElementById("jieqi_menu");
 	if(sfEls) sfEls=sfEls.getElementsByTagName("li");
@@ -17,7 +17,7 @@ if (document.all){
 	window.addEventListener('load',menufix,false);
 }
 
-//¸¡¶¯ÌáÊ¾¿ò£¨ÏÔÊ¾titleÄÚÈİ£©
+//æµ®åŠ¨æç¤ºæ¡†ï¼ˆæ˜¾ç¤ºtitleå†…å®¹ï¼‰
 var tipname = "tips";
 var tiptag = "a,label,div,img,span"; 
 var tipx = 0;
@@ -99,7 +99,7 @@ if (document.all){
 	window.addEventListener('load',tipinit,false);
 } 
 
-//tabĞ§¹û
+//tabæ•ˆæœ
 function selecttab(obj){
 	var n = 0;
 	var tabs = obj.parentNode.parentNode.getElementsByTagName("li"); 

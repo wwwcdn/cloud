@@ -1,4 +1,4 @@
-//å–å¾—ä¸€ä¸ªå¯¹è±¡ï¼Œç›¸å½“äºgetElementById()
+//È¡µÃÒ»¸ö¶ÔÏó£¬Ïàµ±ÓÚgetElementById()
 function $() {
   var elements = new Array();
   for (var i = 0; i < arguments.length; i++) {
@@ -11,14 +11,14 @@ function $() {
   return elements;
 }
 
-//æŠŠå®ƒæ¥æ”¶åˆ°çš„å•ä¸ªçš„å‚æ•°è½¬æ¢æˆä¸€ä¸ªArrayå¯¹è±¡ã€‚
+//°ÑËü½ÓÊÕµ½µÄµ¥¸öµÄ²ÎÊı×ª»»³ÉÒ»¸öArray¶ÔÏó¡£
 function $A(list){
 	var arr = [];
 	for (var i=0,len=list.length; i<len; i++){arr[i] = list[i];}
 	return arr;
 }
 
-//å¸¸ç”¨å‡½æ•°æ‰©å±•
+//³£ÓÃº¯ÊıÀ©Õ¹
 var Method = {
 	Element	: function(){
 		this.hide = function(){this.style.display="none"; return this;};
@@ -50,7 +50,7 @@ var Method = {
 Method.Array.apply(Array.prototype);
 Method.String.apply(String.prototype);
 
-//cookieå¤„ç†
+//cookie´¦Àí
 var Cookie = {
     get : function(n){
 	    var dc = "; "+document.cookie+"; ";
@@ -79,9 +79,9 @@ var Cookie = {
     }
 }
 
-//formç›¸å…³å‡½æ•°
+//formÏà¹Øº¯Êı
 var Form = {
-	//æŠŠè¡¨æ ¼å†…å®¹è½¬åŒ–æˆstring
+	//°Ñ±í¸ñÄÚÈİ×ª»¯³Éstring
   serialize: function(form) {
     var elements = Form.getElements($(form));
     var queryComponents = new Array();
@@ -91,7 +91,7 @@ var Form = {
     }
     return queryComponents.join('&');
   },
-  //å–å¾—è¡¨å•å†…å®¹ä¸ºæ•°ç»„å½¢å¼
+  //È¡µÃ±íµ¥ÄÚÈİÎªÊı×éĞÎÊ½
   getElements: function(form) {
     form = $(form);
     var elements = new Array();
@@ -102,7 +102,7 @@ var Form = {
     }
     return elements;
   },
-  //disableè¡¨å•æ‰€æœ‰å†…å®¹
+  //disable±íµ¥ËùÓĞÄÚÈİ
   disable: function(form) {
     var elements = Form.getElements(form);
     for (var i = 0; i < elements.length; i++) {
@@ -111,7 +111,7 @@ var Form = {
       element.disabled = 'true';
     }
   },
-  //enableè¡¨å•æ‰€æœ‰å†…å®¹
+  //enable±íµ¥ËùÓĞÄÚÈİ
   enable: function(form) {
     var elements = Form.getElements(form);
     for (var i = 0; i < elements.length; i++) {
@@ -119,13 +119,13 @@ var Form = {
       element.disabled = '';
     }
   },
-  //Resetè¡¨å•
+  //Reset±íµ¥
   reset: function(form) {
     $(form).reset();
   }
 }
 
-//formé‡Œé¢å…ƒç´ å®šä¹‰
+//formÀïÃæÔªËØ¶¨Òå
 Form.Element = {
   serialize: function(element) {
     element = $(element);
@@ -203,10 +203,10 @@ Form.Element.Serializers = {
   }
 }
 
-//å–formé‡Œé¢ç‰©ä»¶çš„å€¼ï¼Œç­‰åŒäºForm.Element.getValue()
+//È¡formÀïÃæÎï¼şµÄÖµ£¬µÈÍ¬ÓÚForm.Element.getValue()
 var $F = Form.Element.getValue;
 
-//ajaxå¤„ç†
+//ajax´¦Àí
 function jieqi_ajax() {
 	this.init = function() {
 		this.handler = null;
@@ -443,7 +443,7 @@ var Ajax = {
 	}
 }
 
-//å¸¸ç”¨åŠŸèƒ½å‡½æ•°
+//³£ÓÃ¹¦ÄÜº¯Êı
 function pageWidth(){
 	return window.innerWidth != null ? window.innerWidth : document.documentElement && document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body != null ? document.body.clientWidth : null;
 }
@@ -580,7 +580,7 @@ function loadJs(url){
 	}
 }
 
-//QQç™»å½•çª—å£å¼¹å‡º
+//QQµÇÂ¼´°¿Úµ¯³ö
 var width=450;
 var height=320;
 var wt=(screen.height-height)/2; 
@@ -590,7 +590,7 @@ var wl=(screen.width-width)/2;
    var A=window.open("/oauth/redirect_to_login.php","TencentLogin","width="+width+",height="+height+",top="+wt+",left="+wl+ ",menubar=0,scrollbars=0,resizable=0,status=0,titlebar=0,toolbar=0,location=0");
  }
 
-//QQç™»å½•ç»‘å®šè¡¨å•æäº¤
+//QQµÇÂ¼°ó¶¨±íµ¥Ìá½»
 function bind_submit()
 {
     if (document.getElementById("bindlogin").style.display != "none")

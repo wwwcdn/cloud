@@ -60,7 +60,7 @@ function scrolling()
 	if(currentpos!=document.body.scrollTop)
 	{
 		clearInterval(timer);
-		//è‡ªåŠ¨ç¿»é¡µ
+		//×Ô¶¯·­Ò³
 		var ap = ReadCookies("autopage");
 		if(ap=="")ap=0;
 		if(ap==1){

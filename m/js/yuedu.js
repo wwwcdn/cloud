@@ -138,7 +138,7 @@ function showbook(){
 		for(var i=books.length-1;i>-1;i--){//for(var i=0 ;i<books.length;i++){
 			var _17mb_id1000 = parseInt(books[i][0]/1000);		
 			bookhtml+='<li>';
-			bookhtml+='<a href="https://m.qiuwu.net/zzz/'+books[i][0]+'/" class="_17mb_title blue">¡¶'+books[i][2].substring(0,10)+'¡·</a>';
+			bookhtml+='<a href="https://m.qiuwu.net/zzz/'+books[i][0]+'/" class="_17mb_title blue">ã€Š'+books[i][2].substring(0,10)+'ã€‹</a>';
 			bookhtml+='<a href="https://m.qiuwu.net/html/'+parseInt(books[i][0]/1000)+'/'+books[i][0]+'/'+books[i][1]+'.shtml"  class="_17mb_chapter">'+books[i][3].substring(0,12)+'...</a>';
 			bookhtml+='<a href="javascript:removebook(\''+books[i][0]+'\')" class="_17mb_dele"></a>'
 			bookhtml+='</li>';	
@@ -146,7 +146,7 @@ function showbook(){
 		showbook.innerHTML=bookhtml+"</ul>";
 	}
 	else{
-		showbook.innerHTML=bookhtml+"ÔİÎŞÔÄ¶Á¼ÇÂ¼£¡</ul>";	
+		showbook.innerHTML=bookhtml+"æš‚æ— é˜…è¯»è®°å½•ï¼</ul>";	
 	}
 	
 
@@ -160,7 +160,7 @@ function removebook(k){
 
 	
 function yuedu(){
-	//document.write("<a href='javascript:showbook();' target='_self'>µã»÷²é¿´ÔÄ¶Á¼ÇÂ¼</a>");
+	//document.write("<a href='javascript:showbook();' target='_self'>ç‚¹å‡»æŸ¥çœ‹é˜…è¯»è®°å½•</a>");
 	showbook();
 }
 

@@ -25,16 +25,16 @@ window.onerror = killErrors;
 	function changeBG(intStyle){
 		setCookies("xxsyStyles",intStyle,365);
 		
-		$("skinc").href="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/css/"+intStyle+"/xxsy.css";
+		$("skinc").href="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/css/"+intStyle+"/xxsy.css";
 		css_style=intStyle;
 		if($('imglogo')){
-			$('imglogo').src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/css/"+intStyle+"/logo.jpg";
+			$('imglogo').src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/css/"+intStyle+"/logo.jpg";
 		}
 		if($('imgcontentbg')){
-			$('imgcontentbg').style.background="url(https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/css/"+css_style+"/content_top_1_32.gif)";
+			$('imgcontentbg').style.background="url(https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/css/"+css_style+"/content_top_1_32.gif)";
 		}
 		if($('imggirl')){
-			$('imggirl').src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/css/"+intStyle+"/girl.gif";
+			$('imggirl').src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/css/"+intStyle+"/girl.gif";
 		}
 		if($('test2')){
 			$('test2').src=$('test2').src;
@@ -43,23 +43,23 @@ window.onerror = killErrors;
 			$('test').src=$('test').src;
 		}
 		if($('sh_td1')){
-			$('sh_td1').style.background="url(https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/css/"+css_style+"/corner_choose_l_5_28.gif)";
-			$('sh_td2').style.background="url(https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/css/"+css_style+"/line_choose_1_28.gif)";
-			$('sh_td3').style.background="url(https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/css/"+css_style+"/corner_choose_r_5_28.gif)";
-			$('sh_td4').style.background="url(https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/css/"+css_style+"/corner_hidden_l_5_28.gif)";
-			$('sh_td5').style.background="url(https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/css/"+css_style+"/line_hidden_1_28.gif)";
-			$('sh_td6').style.background="url(https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/css/"+css_style+"/corner_hidden_r_5_28.gif)";
+			$('sh_td1').style.background="url(https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/css/"+css_style+"/corner_choose_l_5_28.gif)";
+			$('sh_td2').style.background="url(https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/css/"+css_style+"/line_choose_1_28.gif)";
+			$('sh_td3').style.background="url(https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/css/"+css_style+"/corner_choose_r_5_28.gif)";
+			$('sh_td4').style.background="url(https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/css/"+css_style+"/corner_hidden_l_5_28.gif)";
+			$('sh_td5').style.background="url(https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/css/"+css_style+"/line_hidden_1_28.gif)";
+			$('sh_td6').style.background="url(https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/css/"+css_style+"/corner_hidden_r_5_28.gif)";
 		}
 		
 	}
 	
-	var css_style=ReadCookies("xxsyStyles"); //配色方案
+	var css_style=ReadCookies("xxsyStyles"); //閰嶈壊鏂规
 	
 	if (css_style==""  ){
 		css_style=1;
 	}
 
-	document.write("<LINK id=skinc href='https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/css/"+css_style+"/xxsy.css' type=text/css rel=stylesheet>");
+	document.write("<LINK id=skinc href='https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.2/css/"+css_style+"/xxsy.css' type=text/css rel=stylesheet>");
   
     
   function showbook(divName,bid,kk,maxnum){
