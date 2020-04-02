@@ -3,7 +3,7 @@ body{
   color: #000000;
   margin: 0px;
   padding: 0px;
-  font-family: 宋体, 新细明体, Verdana, Arial, sans-serif;
+  font-family: 瀹嬩綋, 鏂扮粏鏄庝綋, Verdana, Arial, sans-serif;
   font-size: 12px;
   text-align: center;
 }
@@ -13,10 +13,10 @@ form{
   padding: 0px;
 }
 
-/* 表格样式 */
+/* 琛ㄦ牸鏍峰紡 */
 table{
 	text-align: left; 
-	font: 12px/120% 宋体,Verdana,Arial,sans-serif;
+	font: 12px/120% 瀹嬩綋,Verdana,Arial,sans-serif;
 }
 
 table td{

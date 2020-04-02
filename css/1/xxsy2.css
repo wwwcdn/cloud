@@ -42,24 +42,24 @@ a:active {text-decoration: none;color: #085271;}
 
 /*头部 s */
 #bannar td{ font-size:12px;text-align:left}
-.btnSSsubmit{color:#ffffff; border:0px;width:43px; height:23px;background-image:url(/css/1/searchbtnbg.gif); font-size:12px;}
-.topbg_1{background-image:url(/css/1/line_top_1_1_32.gif);}
-.topbg_2{background-image:url(/css/1/line_top_2_1_31.gif);}
+.btnSSsubmit{color:#ffffff; border:0px;width:43px; height:23px;background-image:url(css/1/searchbtnbg.gif); font-size:12px;}
+.topbg_1{background-image:url(css/1/line_top_1_1_32.gif);}
+.topbg_2{background-image:url(css/1/line_top_2_1_31.gif);}
 /*头部 e */
 
 /*左边模块容器  s */
 #ctner_title td{}
-.corner_up_l{ background-image:url(/css/1/corner_up_left_7_25.gif); width:7px;}
-.corner_up_r{ background-image:url(/css/1/corner_up_right_7_25.gif); width:7px;}
-.corner_up_l_1{ background-image:url(/css/1/corner_up_left_7_25_1.gif); width:7px;}
-.corner_up_r_1{ background-image:url(/css/1/corner_up_right_7_25_1.gif); width:7px;}
-.line_title{background-image:url(/css/1/line_title_1_25.gif); background-repeat:repeat-x; padding-top:5px; height:20px; font-size:14px; font-weight:bold;}
-.line_title_default {background-image:url(/css/1/line_title_1_25.gif); background-repeat:repeat-x; padding-top:5px; height:20px; font-size:12px; }
+.corner_up_l{ background-image:url(css/1/corner_up_left_7_25.gif); width:7px;}
+.corner_up_r{ background-image:url(css/1/corner_up_right_7_25.gif); width:7px;}
+.corner_up_l_1{ background-image:url(css/1/corner_up_left_7_25_1.gif); width:7px;}
+.corner_up_r_1{ background-image:url(css/1/corner_up_right_7_25_1.gif); width:7px;}
+.line_title{background-image:url(css/1/line_title_1_25.gif); background-repeat:repeat-x; padding-top:5px; height:20px; font-size:14px; font-weight:bold;}
+.line_title_default {background-image:url(css/1/line_title_1_25.gif); background-repeat:repeat-x; padding-top:5px; height:20px; font-size:12px; }
 
-.corner_down_l{ background-image:url(/css/1/corner_down_left_9_8.gif); background-repeat:no-repeat; }
-.corner_down_r{ background-image:url(/css/1/corner_down_right_7_8.gif);background-repeat:no-repeat; }
-.corner_down_l_1{ background-image:url(/css/1/corner_down_left_9_8_1.gif); background-repeat:no-repeat; }
-.corner_down_r_1{ background-image:url(/css/1/corner_down_right_7_8_1.gif);background-repeat:no-repeat; }
+.corner_down_l{ background-image:url(css/1/corner_down_left_9_8.gif); background-repeat:no-repeat; }
+.corner_down_r{ background-image:url(css/1/corner_down_right_7_8.gif);background-repeat:no-repeat; }
+.corner_down_l_1{ background-image:url(css/1/corner_down_left_9_8_1.gif); background-repeat:no-repeat; }
+.corner_down_r_1{ background-image:url(css/1/corner_down_right_7_8_1.gif);background-repeat:no-repeat; }
 .line_down{height:8px; text-align:center}
 
 #container table{padding:5px 5px 0px 5px; background-color:#FFFFFF}
@@ -111,16 +111,16 @@ a:active {text-decoration: none;color: #085271;}
 /*作品订阅 s */
 #dingyue table{margin-top:10px;border:solid #c1dce7 1px;background-color:#FFFFFF; padding:10px 10px 10px 10px; line-height:25px; color:#000000;}
 
-#dingyue span {border:solid #c1dce7 1px;background-image:url(/css/1/btn_line.gif); width:92px; height:25px; float:left; margin-left:60px; background-position:bottom}
+#dingyue span {border:solid #c1dce7 1px;background-image:url(css/1/btn_line.gif); width:92px; height:25px; float:left; margin-left:60px; background-position:bottom}
 
-.btmSmt{border:solid #FFFFFF 1px; background-image:url(/css/1/btn_line.gif);width:92px;height:26px; color:#085271;font-size:14px; font-weight:bold; }
+.btmSmt{border:solid #FFFFFF 1px; background-image:url(css/1/btn_line.gif);width:92px;height:26px; color:#085271;font-size:14px; font-weight:bold; }
 
 #dingyue span{color: #085271;font-size:14px; font-weight:bold}
 #dingyue a {color: #085271;font-size:14px; font-weight:bold}
 
 #chongzi table{height:30px; width: 90%; border:solid #e6e6e6 1px; }
 #chongzi td{background-color:#fffff3; color:#000000;}
-.btmSmt2{border:solid #FFFFFF 1px; background-image:url(/css/1/btn_line.gif);width:auto;height:26px; color:#085271; font-size:12px;}
+.btmSmt2{border:solid #FFFFFF 1px; background-image:url(css/1/btn_line.gif);width:auto;height:26px; color:#085271; font-size:12px;}
 /*作品订阅 e */
 
 /*投票 s*/

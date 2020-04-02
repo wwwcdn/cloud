@@ -53,7 +53,7 @@ window.onerror = killErrors;
 		
 	}
 	
-	var css_style=ReadCookies("xxsyStyles"); //配色方案
+	var css_style=ReadCookies("xxsyStyles"); //閰嶈壊鏂规
 	
 	if (css_style==""  ){
 		css_style=1;

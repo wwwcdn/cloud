@@ -201,7 +201,7 @@ text-align:center;
 #indexbbsmm-play_bg {position:absolute;background-color:#fa51f8;margin-top:132px;height:25px;width:290px;filter: Alpha(Opacity=60);opacity:0.6;z-index:1000}
 #indexbbsmm-play_text {position:absolute;margin:136px 0 0 208px;height:22px;width:90px;z-index:1002}
 #indexbbsmm-play_text ul {list-style-type:none; width:90px;height:25px;display:block;padding-top:1px;_padding-top:0px;filter: Alpha(Opacity=80);opacity:0.8;margin-top:0px;}
-#indexbbsmm-play_text ul li {width:14px;height:14px;float:left;background-color:#ff6600;display:block;color:#FFF;text-align:center;margin:1px;cursor:pointer;font-family:"Î¢ÈíÑÅºÚ"; font-size:12px;overflow:hidden;}
+#indexbbsmm-play_text ul li {width:14px;height:14px;float:left;background-color:#ff6600;display:block;color:#FFF;text-align:center;margin:1px;cursor:pointer;font-family:"å¾®è½¯é›…é»‘"; font-size:12px;overflow:hidden;}
 #indexbbsmm-play_list a{display:block;width:290px;height:158px;position:absolute;overflow:hidden;margin:0px 0px 0px 0px;}
 
 .addown_bbs_centop{width:424px;height:30px;border-bottom:1px solid #e8e8e8;*overflow:hidden !important;*overflow:hidden;color:#cc3366;}
