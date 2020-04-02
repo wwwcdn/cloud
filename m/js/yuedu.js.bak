@@ -138,8 +138,8 @@ function showbook(){
 		for(var i=books.length-1;i>-1;i--){//for(var i=0 ;i<books.length;i++){
 			var _17mb_id1000 = parseInt(books[i][0]/1000);		
 			bookhtml+='<li>';
-			bookhtml+='<a href="/book/'+books[i][0]+'/" class="_17mb_title blue">¡¶'+books[i][2].substring(0,10)+'¡·</a>';
-			bookhtml+='<a href="/'+parseInt(books[i][0]/1000)+'/'+books[i][0]+'/'+books[i][1]+'.html"  class="_17mb_chapter">'+books[i][3].substring(0,12)+'...</a>';
+			bookhtml+='<a href="/zzz/'+books[i][0]+'/" class="_17mb_title blue">¡¶'+books[i][2].substring(0,10)+'¡·</a>';
+			bookhtml+='<a href="/html/'+parseInt(books[i][0]/1000)+'/'+books[i][0]+'/'+books[i][1]+'.html"  class="_17mb_chapter">'+books[i][3].substring(0,12)+'...</a>';
 			bookhtml+='<a href="javascript:removebook(\''+books[i][0]+'\')" class="_17mb_dele"></a>'
 			bookhtml+='</li>';	
 		}

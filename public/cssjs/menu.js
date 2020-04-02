@@ -5,7 +5,7 @@ document.writeln("<div align=center style=\'FONT-SIZE:14pt;color:#FF0000;\'><b>Ò
 function read_tool(){
 
 
-document.writeln("<SCRIPT language=JavaScript src=\"https://cssjs.lisawuwa.com/public/cssjs/tool.js\"></SCRIPT>");
+document.writeln("<SCRIPT language=JavaScript src=\"https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/public/cssjs/tool.js\"></SCRIPT>");
 
 
 //

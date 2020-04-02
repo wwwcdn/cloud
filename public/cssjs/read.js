@@ -1,8 +1,8 @@
 //document.writeln("<div class=\'urgent\'><a href=\'http://www.qiuwu.net/feedback/\'><font color=\'black\' size=\'3\'><strong>即日起举报一本涉黄书籍就奖励5元,上不封顶举报越多奖励越多,点击此处进行举报</strong></font></a></div>");
-document.write('<SCRIPT language=JavaScript src="https://cssjs.lisawuwa.com/public/cssjs/uaredirect.js"></SCRIPT>');
-document.write('<SCRIPT language=JavaScript src="https://cssjs.lisawuwa.com/public/cssjs/m.js"></SCRIPT>');
-document.write('<SCRIPT language=JavaScript src="https://cssjs.lisawuwa.com/public/cssjs/cssjs.js"></SCRIPT>');
-document.write('<SCRIPT language=JavaScript src="https://cssjs.lisawuwa.com/public/cssjs/head.js"></SCRIPT>');
+document.write('<SCRIPT language=JavaScript src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/public/cssjs/uaredirect.js"></SCRIPT>');
+document.write('<SCRIPT language=JavaScript src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/public/cssjs/m.js"></SCRIPT>');
+document.write('<SCRIPT language=JavaScript src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/public/cssjs/cssjs.js"></SCRIPT>');
+document.write('<SCRIPT language=JavaScript src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/public/cssjs/head.js"></SCRIPT>');
 document.write('<SCRIPT language=JavaScript src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></SCRIPT>');
 
 
@@ -33,7 +33,7 @@ document.writeln("<font color=red size =5>网站BUG已修复！<\/font>");
 document.writeln("<\/center>")
 
 document.writeln("<div id=\'hm_t_117603\'></div>");
-document.writeln("<SCRIPT language=JavaScript src=\"https://cssjs.lisawuwa.com/public/cssjs/read_select_do.js\"></SCRIPT>");
+document.writeln("<SCRIPT language=JavaScript src=\"https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/public/cssjs/read_select_do.js\"></SCRIPT>");
 
 
 }
@@ -76,7 +76,7 @@ function read_top_menu(){
 	';
 	var str='\
 	<div id="bannar" class="link_12_bold">\
-		<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0" id=imgcontentbg background="/css/'+css_style+'/content_top_1_32.gif">\
+		<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0" id=imgcontentbg background="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/css/'+css_style+'/content_top_1_32.gif">\
 		  <tr> \
 			<td width="5%" height="32">&nbsp;<img id=imggirl src="/css/'+css_style+'/girl.gif" width="31" height="29" />&nbsp;</td>\
 			<td width="24%" ><a href="https://www.qiuwu.net/">凤舞文学网</a>&nbsp;&nbsp;<a href="javascript:;" onmouseover="showhidecolor()">▼ 选择配色方案 ▼</a>'+sss+'</td>\
@@ -122,7 +122,7 @@ function read_top_menu_index(){
 	<div id="bannar" class="link_12_bold">\
 		<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0" id=imgcontentbg background="/css/'+css_style+'/content_top_1_32.gif">\
 		  <tr> \
-			<td width="5%" height="32">&nbsp;<img id=imggirl src="/css/'+css_style+'/girl.gif" width="31" height="29" />&nbsp;</td>\
+			<td width="5%" height="32">&nbsp;<img id=imggirl src="https://cdn.jsdelivr.net/gh/wwwcdn/cloud@v1.1/css/'+css_style+'/girl.gif" width="31" height="29" />&nbsp;</td>\
 			<td width="22%" ><a href="https://www.qiuwu.net/">凤舞文学网</a>&nbsp;&nbsp;<a href="javascript:;" onmouseover="showhidecolor()">▼ 选择配色方案 ▼</a>'+sss+'</td>\
 			<td width="73%" style="text-align:right"><a href="/newmessage.php?tosys=1&title='+articlename+'--'+chaptername+'章节出错啦!&content=错误章节：'+chaptername+' ++++ 举报原因如下： " target="_blank"" style="color:red">章节错误/点此举报</a>&nbsp;\
 			<a href="/newmessage.php?tosys=1&title='+articlename+'更新太慢啦!&content= 《'+articlename+'》 更新太慢了,请加快速度,别的网站都有最新章节了.(请您最好告诉我们现在有哪个网站更新速度比我们快，以便使我们知道进度落后的状况) 以下网站比燃文更新的快:" target="_blank" style="color:red">更新慢了/点此举报</a>&nbsp;\

@@ -1,5 +1,5 @@
 function show_read(){
-document.writeln("<div align=center style=\'FONT-SIZE:14pt;color:#FF0000;\'><b>已启用新网址www.okma.net</b></div>");
+document.writeln("<div align=center style=\'FONT-SIZE:14pt;color:#FF0000;\'><b>已启用新网址：www.kknn.net</b></div>");
 }
 
 function read_tool(){
@@ -49,7 +49,7 @@ document.body.onclick=hidemenuie5
 }
 
 function read_select_do(){
-document.writeln("<div align=center style=\'FONT-SIZE:14pt;color:#FF0000;\'><b>已启用新网址www.okma.net</b></div>");
+document.writeln("<div align=center style=\'FONT-SIZE:14pt;color:#FF0000;\'><b>已启用新网址：www.kknn.net</b></div>");
 }
 
 function bottom_tongji(){

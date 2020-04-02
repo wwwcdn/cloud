@@ -9,7 +9,7 @@ window.onerror = killErrors;
 	{
 	    var date=new Date(); 
   		date.setTime(date.getTime()+expireDays*24*3600*1000);
-	 	document.cookie = cookieName +"="+ escape (cookieValue) + ";expires=" + date.toGMTString()+ ";path=/;domain=.okma.net;";
+	 	document.cookie = cookieName +"="+ escape (cookieValue) + ";expires=" + date.toGMTString()+ ";path=/;domain=.kknn.net;";
 	 
 	}
 	function ReadCookies(cookieName)
